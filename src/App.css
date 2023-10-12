@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  /* background-color: red; */
+  height:100vh;
+}
+.box{
+ height: 50px;
+ width:50px;
+ margin: 20px;
+ border:2px solid white;
+  cursor: pointer;
+}
+/* .box:hover{
+  border:2px solid white;
+  cursor: pointer;
+} */
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Crimson{
+  background-color: #dc143c;
+}
+.RoyalBlue {
+  background-color: #4169E1;
 }
 
-.App-link {
-  color: #61dafb;
+.ForestGreen {
+  background-color: #388E3C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Gold {
+  background-color: #FFD700;
+}
+
+.Magenta {
+  background-color: #FF00FF;
+}
+
+.Cyan {
+  background-color: #00FFFF;
+}
+
+.Turquoise {
+  background-color: #40E0D0;
+}
+
+.Violet {
+  background-color: #EE82EE;
+}
+
+.Orange {
+  background-color: #FFA500;
+}
+
+.Silver {
+  background-color: #C0C0C0;
+}
+
+.Gray {
+  background-color: #808080;
+}
+
+.Navy {
+  background-color: #000080;
+}
+button{
+  margin:10px;
+  background-color: grey;
+  color:white;
+  font-size: xx-large;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid white;
 }
